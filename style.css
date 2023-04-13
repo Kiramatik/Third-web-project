@@ -1,0 +1,95 @@
+html {
+  background-color: #e8e8e8;
+}
+article {
+  width: max-content;
+  margin: 0 auto;
+}
+
+li {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.list {
+  margin-top: 136px;
+}
+
+.li1 {
+  color: #273d46;
+  font-family: "Arial MT";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.li2 {
+  color: #273d46;
+  font-family: "Arial MT";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.li3 {
+  color: #273d46;
+  font-family: "Arial MT";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.li4 {
+  color: #273d46;
+  font-family: "Arial MT";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+li::before {
+  content: "";
+  background: url("img/иконочка.png") left no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+li:hover {
+  color: red;
+}
+
+li:hover::before {
+  background-image: url("img/красная.png");
+}
+
+button {
+  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+  background-color: rgba(128, 183, 179, 1);
+  padding: 17px 59px 17px 30px;
+  border-radius: 17px;
+}
+
+button::after {
+  content: "";
+  background: url("img/стрела.png") right no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  vertical-align: middle;
+  margin-left: 10px;
+}

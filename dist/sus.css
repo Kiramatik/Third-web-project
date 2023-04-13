@@ -1,0 +1,88 @@
+html {
+  background-image: linear-gradient(to left, violet, red);
+  margin-bottom: 35px;
+}
+
+article {
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.title {
+  background-color: burlywood;
+  padding: 25px 35px 25px 35px;
+  border-radius: 35px;
+  border: 3px solid purple;
+  box-shadow: 10px salmon;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.flag {
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  margin-top: 35px;
+  border-radius: 50px;
+  display: block;
+  margin-bottom: 35px;
+  border: 2px solid black;
+}
+
+.body__text1 {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #1e2833;
+  font-size: 35px;
+}
+
+.body__list {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 12px 10px 12px;
+}
+
+.obch1 {
+  border-radius: 25px;
+  border: 2px solid aqua;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.li1,
+.li2,
+.li3,
+.li4,
+.li5 {
+  margin-bottom: 12px;
+}
+
+.button__1 {
+  padding: 35px 20px 35px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 25px;
+  background-color: violet;
+  margin-bottom: 35px;
+}
+
+.button__1,
+.button__1:visited {
+  color: black;
+}
+
+.button__1:focus {
+  background-color: #57b394;
+  border: 2px solid #ca62ca;
+}
+
+.button__1:hover {
+  background-color: #dc6edc;
+  border: 2px solid #5abe82;
+}
